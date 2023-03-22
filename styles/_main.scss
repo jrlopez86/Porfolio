@@ -1,0 +1,84 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    color: white;
+  }
+
+  &__icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
+  &__img {
+    width: 70px;
+  }
+
+  &__cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+
+    h5 {
+      color: white;
+    }
+  }
+
+}
+
+
+.proyectos {
+    height: 100vh;
+}
+.proyectos__cards {
+
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+
+}
+
+.proyectos__title{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    margin-top: 80px;
+  
+}
+
+.card.skills__card--color {
+	background: unset !important;
+    border: none;
+}
+
+.card__cont{
+    width: 30% !important
+}
+
+.card__border {
+    border: none;
+    color: #4d556c;
+}
+
+.card-body.card__color {
+	background-color: #222633;
+}
+
+// .btn .btn-primary {
+//   background-color: #5064a7 !important;
+//   border: none !important
+// }
+
+
+.card__border--color{
+  background-color: #5064a7 !important;
+   border: none !important
+}

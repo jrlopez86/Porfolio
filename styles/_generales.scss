@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181B26
+}
+
+main {
+  margin: 0 94px;
+  background-color: #181B26;
+  // height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  height: 300px;
+  background-color: #181B26;
+}

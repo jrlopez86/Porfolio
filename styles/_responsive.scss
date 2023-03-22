@@ -1,0 +1,75 @@
+@media screen and (min-width: 375px) and (max-width: 990px) {
+
+main{
+    margin: 0 20px;
+}
+
+    .seccion {
+        margin: 0 20px;
+
+        p{
+            font-size: 20px;
+        }
+    
+    }
+
+    .seccion__cont {
+        position: relative;
+        bottom: 107px;
+    }
+
+
+    .seccion h1 {
+        font-size: 32px;
+    }
+
+    .skills h2 {
+        font-size: 15px;
+    }
+
+    .skills__img {
+        width: 29px;
+    }
+
+    .skills__cards {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        width: 300px;
+    }
+
+    .skills__icons {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between; /* Aplica la distribución space-between */
+      }
+      
+
+    .proyectos {
+        height: auto;
+    }
+
+    .navbar__boton {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; /* Centra el texto horizontalmente */
+      }
+      
+
+    .navbar-nav.navegacion__icons.ms-auto.d-flex.justify-content-end {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        
+    }
+
+    .ms-auto {
+        margin-left: 0 !important;
+    }
+
+
+}
