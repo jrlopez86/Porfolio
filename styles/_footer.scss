@@ -8,3 +8,13 @@
         color: white;
     }
 }
+
+.footer__cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+    a{
+        text-decoration: none;
+    }
+}
